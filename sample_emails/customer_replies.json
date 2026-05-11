@@ -1,0 +1,20 @@
+[
+    {
+      "document_number": "INV-2026-10001",
+      "customer_email": "ar@cedarpackagingholdings.example.com",
+      "received_date": "2026-05-01",
+      "reply": "We have already paid this invoice yesterday. Please check your bank records."
+    },
+    {
+      "document_number": "INV-2026-10002",
+      "customer_email": "finance@example.com",
+      "received_date": "2026-05-02",
+      "reply": "We will pay this invoice next week. Sorry for the delay."
+    },
+    {
+      "document_number": "INV-2026-10003",
+      "customer_email": "accounts@example.com",
+      "received_date": "2026-05-03",
+      "reply": "The amount in this invoice is incorrect. Please check and send the corrected invoice."
+    }
+  ]
