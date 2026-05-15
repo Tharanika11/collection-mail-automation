@@ -2,6 +2,7 @@ import json
 import sys
 from io import BytesIO
 from pathlib import Path
+import traceback
 from typing import Any
 
 import pandas as pd
@@ -275,3 +276,10 @@ async def run_collections_workflow(
             status_code=500,
             detail=f"Workflow failed: {str(error)}"
         )
+    
+    except Exception as error:
+
+     raise HTTPException(
+        status_code=500,
+        detail=traceback.format_exc()
+    )

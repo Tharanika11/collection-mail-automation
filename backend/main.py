@@ -25,8 +25,7 @@ def main() -> None:
     8. Save CSV outputs
     """
 
-    # project_root = Path(__file__).resolve().parents[1]
-    project_root = Path(__file__).resolve().parent
+    project_root = Path(__file__).resolve().parents[1]
 
     data_file = project_root / "data" / "synthetic_customer_ar_data.xlsx"
     replies_file = project_root / "sample_emails" / "customer_replies.json"
