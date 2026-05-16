@@ -47,7 +47,7 @@ Use this option if you want to run the backend API for the React UI.
 From the project root folder, run:
 
 ```bash
-uvicorn src.api:app --reload --port 8000
+uvicorn backend.api:app --reload --port 8000
 
 http://localhost:8000
 ```
